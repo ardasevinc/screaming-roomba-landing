@@ -32,13 +32,15 @@ body {
 .wrapper {}
 header {
   text-align: center;
-  padding: 2% 4%;
+  padding: 4% 4%;
   min-height: 10%;
 }
 
 h1 {
   font-size: 4rem;
   color: var(--light-gray);
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
 }
 
 nav {
@@ -65,6 +67,7 @@ nav li:last-child {
 
 nav li a {
   font-size: 1.8rem;
+  font-family: 'Oswald', sans-serif;
   color: var(--light-gray);
   text-decoration: none;
 }
@@ -84,6 +87,7 @@ main {
 main h2 {
   color: var(--light-gray);
   font-size: 3rem;
+  font-family: 'Oswald', sans-serif;
   text-align: center;
   margin-bottom: 5%;
 }
@@ -91,6 +95,7 @@ main h2 {
 main p {
   color: var(--dark-gray);
   font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
   text-align: left;
   /* padding: 0 10%; */
   line-height: 2rem;
@@ -141,4 +146,13 @@ footer li {
 footer li a {
   color: var(--light-gray);
   text-decoration: none;
+  border-bottom: 3px solid var(--complement2);
+}
+
+.sign {
+  font-family: 'Courgette', cursive;
+}
+
+.source {
+  font-family: 'Oswald', sans-serif;
 }
