@@ -102,15 +102,22 @@ nav li a {
   }
 }
 
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
 main {
   max-height: 80%;
   padding: 0 10%;
+  padding-bottom: 10%;
   margin-top: 5%;
 }
 
 @media (min-width: 800px) {
   main {
     padding: 0 20%;
+    padding-bottom: 10%;
   }
 }
 
@@ -118,6 +125,7 @@ main {
 @media (min-width: 1400px) {
   main {
     padding: 0 25%;
+    padding-bottom: 5%;
   }
 }
 
@@ -176,10 +184,19 @@ main p {
 }
 
 footer {
+  position: absolute;
   min-height: 10%;
+  width: 100%;
+  bottom: 0;
   text-align: center;
   font-size: 2rem;
   margin-top: 5%;
+}
+
+footer ul {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 footer li {
