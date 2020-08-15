@@ -43,6 +43,12 @@ h1 {
   font-weight: 600;
 }
 
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+}
+
 nav {
   padding: 5%;
   margin-bottom: 5%;
@@ -52,6 +58,18 @@ nav {
   position: sticky;
   top: 0;
   z-index: 999;
+}
+
+@media (min-width: 800px) {
+  nav {
+    padding: 2%;
+  }
+}
+
+@media (min-width: 1400px) {
+  nav {
+    padding: 1%;
+  }
 }
 
 nav li {
@@ -72,6 +90,12 @@ nav li a {
   text-decoration: none;
 }
 
+@media (min-width: 1000px) {
+  nav li a {
+    font-size: 2.2rem;
+  }
+}
+
 @media (max-width: 434px) {
   nav ul li:last-child {
     margin-top: 3%;
@@ -84,12 +108,31 @@ main {
   margin-top: 5%;
 }
 
+@media (min-width: 800px) {
+  main {
+    padding: 0 20%;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  main {
+    padding: 0 25%;
+  }
+}
+
 main h2 {
   color: var(--light-gray);
   font-size: 3rem;
   font-family: 'Oswald', sans-serif;
   text-align: center;
   margin-bottom: 5%;
+}
+
+@media (min-width: 1000px) {
+  main h2 {
+    font-size: 3.5rem;
+  }
 }
 
 main p {
